@@ -8,7 +8,7 @@ const serviceHandlers = async function () {
     const { Risks, BusinessPartners } = this.entities;
 
     const prio_code = {
-        'H': 1, 'M': 2, 'L': 3
+        'H': 3, 'M': 2, 'L': 1
     }
 
     // This handler will be executed directly AFTER a READ operation on RISKS
